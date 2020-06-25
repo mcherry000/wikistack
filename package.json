@@ -18,8 +18,14 @@
   "homepage": "https://github.com/scattergoodexe/wikistack#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "html-template-tag": "^3.2.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.4",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.1.0",
     "static": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
